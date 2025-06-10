@@ -1,0 +1,8 @@
+curl --location 'localhost:8080/orders' \
+--header 'Content-Type: application/json' \
+--data '{
+    "id": "10",
+    "product": "macbook m10",
+    "quantity": 2000,
+    "price": 400
+}'
